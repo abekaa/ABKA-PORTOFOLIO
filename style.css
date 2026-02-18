@@ -178,10 +178,7 @@ body {
 .va {
   /* Agar di HP lebarnya penuh mengikuti container-nya */
   width: 100%; 
-  
-  /* Batas maksimal lebar di PC adalah 400px */
-  max-width: 600px; 
-  
+
   /* Menjaga rasio video agar tidak gepeng */
   height: auto; 
 }
@@ -442,6 +439,7 @@ footer {
     
 
 }
+
 
 
 
