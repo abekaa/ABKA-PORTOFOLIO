@@ -174,9 +174,18 @@ body {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
+
 .va {
-    width: 300px;
+  /* Agar di HP lebarnya penuh mengikuti container-nya */
+  width: 100%; 
+  
+  /* Batas maksimal lebar di PC adalah 400px */
+  max-width: 400px; 
+  
+  /* Menjaga rasio video agar tidak gepeng */
+  height: auto; 
 }
+
 .sk {
     background-color: #DDAED3;
     box-shadow: 0px 0px 15px 40px #DDAED3;
