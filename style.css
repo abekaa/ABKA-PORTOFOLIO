@@ -190,7 +190,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 100%;
 }
 .skl {
     font-weight: 700;
