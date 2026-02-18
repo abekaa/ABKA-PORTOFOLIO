@@ -175,7 +175,7 @@ body {
     animation-range: entry 0% cover 40%;
 }
 .va {
-    width: 400px;
+    height: 400px;
 }
 .sk {
     background-color: #DDAED3;
@@ -430,9 +430,7 @@ footer {
     .ksatu {
         height: 20dvh;
     }
-    .va {
-      width: 250px;
-    }
+    
 
 }
 
