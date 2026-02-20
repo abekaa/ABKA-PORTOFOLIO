@@ -2,12 +2,14 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    max-width: 1080px;
 }
 .navbar {
     box-shadow: 0px 1px 30px 15px whitesmoke;
 }
 .profil {
     height: 100dvh;
+    width: auto;
     padding: 20px;
     background-color: #EEEEEE;
     display: flex;
@@ -103,7 +105,7 @@ body {
 }
 .pttg {
     font-size: 22px;
-    max-width: 80%;
+    width: 100%;
     color: white;
     animation: fadein linear;
     animation-timeline: view();
@@ -214,8 +216,8 @@ body {
 }
 .skk .progres {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background: #fff linear-gradient(to right, transparent 50%, var(--clr)0);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -281,6 +283,7 @@ body {
     border-radius: 50%;
 }
 .kntk {
+    pading-top: 5%;
     height: 100%;
     background: whitesmoke;
     display: flex;
@@ -440,6 +443,7 @@ footer {
     
 
 }
+
 
 
 
